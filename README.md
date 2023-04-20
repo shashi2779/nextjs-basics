@@ -9,6 +9,13 @@
     - Higher the website is listed , the more people will see it.
 
 ## install
-- npx create-next-app project-name
+- npx create-next-app projectName
 - npm run dev
-- 
+## In next.js  : known about folders
+- two imp folders "pubic" , "src"
+- In public folder => svg 
+- In src folder :
+    -  api/hello => route.ts <= persional API likhate hai 
+    -  global.css <= sari css hoti hai jo globally estemal karte hai
+    - layout.tsx <= hmara diff pages ka layout aata hai ki kaun si chij pahle aayi , kaun si chij bad me aayi , esme hmm define karte hai.
+    - page.tsx <= hamara main page hota hai jisme hmm pura data rakhate hai apna [esko hmare website ka home page bhi bol sakte hai]
