@@ -201,3 +201,58 @@ function page() {
 
 export default page
 ```
+
+## components : header , footer , sidebar
+- Home, About, Services, Review, Contact <= name se page banaya hai "components" folder k ander
+- src --> app => componets -> Header.tsx
+```js
+Header.tsx
+-----------
+import React from 'react'
+import Link from 'next/link'
+
+function Header() {
+  return (
+    <>
+    <header >
+        <nav className='flex'>
+            <div className="box1">
+               <h1>pepCoding</h1>
+            </div>
+            <div className="box2 mx-2">
+                <ul className='flex'>
+                    <li><Link href='/'>Home</Link></li>
+                    <li><Link href='/about'>About</Link></li>
+                    <li><Link href='/services'>Services</Link></li>
+                    <li><Link href='/review'>Review</Link></li>
+                    <li><Link href='/contact'>Contact</Link></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    </>
+  )
+}
+
+export default Header
+
+```
+- src-->app => page.tsx
+```js
+page.tsx
+---------
+import React from 'react'
+import Header from './components/Header'
+
+function page() {
+  return (
+    <>
+     <Header/> 
+    </>
+  )
+}
+
+export default page
+
+```

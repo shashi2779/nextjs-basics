@@ -1,12 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Header from './components/Header'
 
 function page() {
   return (
     <>
-      <h1>xaxi-Brand</h1>
-      <Link href="/about">About</Link>
+     <Header/>
+
+      {/* <h1>xaxi-Brand</h1>
+      <Link href="/about">About</Link> */}
       
       {/* <Image
         src="/me.png"
