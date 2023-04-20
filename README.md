@@ -27,7 +27,7 @@
       page.tsx ka nam change nhi krr sakte 
 
       src --> app --> page.tsx [homepage hai ye]
-      
+
 - [src -> app ] => app me folder banaya "about" nam se aur uske ander "about.tsx" nam se 
   file bna diya => toh error aaya
 
@@ -74,4 +74,21 @@ export default page
 ```js
 page aaya 
 ```
-- 
+
+
+## routing/nested routing
+- routing
+   - http://localhost:3000/about
+```js
+about[folder] --> page.jsx
+```
+- nested routing
+    - http://localhost:3000/about/company
+```js
+about[folder] --> company[folder] 
+     |                 |
+     |                 |-------------------> page.tsx
+     |
+     |
+     |-------------------------------------> page.tsx
+```
