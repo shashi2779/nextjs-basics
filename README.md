@@ -206,7 +206,7 @@ export default page
 - Home, About, Services, Review, Contact <= name se page banaya hai "components" folder k ander
 - src --> app => componets -> Header.tsx
 ```js
-Header.tsx
+components --> Header.tsx
 -----------
 import React from 'react'
 import Link from 'next/link'
