@@ -92,3 +92,112 @@ about[folder] --> company[folder]
      |
      |-------------------------------------> page.tsx
 ```
+
+## Dynamic routing : lec -7
+-
+
+## Loading UI  : chakra ui react
+-
+```js
+```
+
+## In Next.js => Link component :
+- next.js me "react-router-dom" use nhi karte for routing
+- Link :
+    - alternate of anchor-tag 
+```js
+[src-->app]--> about[folder] --> page.tsx
+---------------------
+import React from 'react'
+
+function page() {
+  return (
+    <div>about me</div>
+  )
+}
+
+export default page
+```
+```js
+[src-->app] --> page.tsx
+-------------
+import React from 'react'
+import Link from 'next/link' // ye next ka hi link hona cahiye , react-rom ka nhi 
+
+function page() {
+  return (
+    <>
+      <h1>xaxi</h1>
+      <Link href="/about">About</Link>
+
+    </>
+  )
+}
+
+export default page
+```
+- output:
+```js
+xaxi-Brand About
+
+
+note : 
+1- "about" prr touch kiye toh about page prr bhej diya
+ans aaya => about me
+```
+
+## In Next.js => Image component :
+```js
+page.tsx
+----------
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+
+function page() {
+  return (
+    <>
+      <h1>xaxi-Brand</h1>
+      <Link href="/about">About</Link>
+      
+      <Image
+        src="/me.png"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      
+    </>
+  )
+}
+
+export default page
+```
+- another 
+```js
+page.tsx
+----------
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import profilePic from '../assets/me.png'
+
+function page() {
+  return (
+    <>
+      <h1>xaxi-Brand</h1>
+      <Link href="/about">About</Link>
+      
+      <Image
+        src={profilePic}
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      
+    </>
+  )
+}
+
+export default page
+```
