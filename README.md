@@ -64,7 +64,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>page aaya</div>
+    <div>about page aaya</div>
   )
 }
 
@@ -72,7 +72,7 @@ export default page
 ```
 #### output :
 ```js
-page aaya 
+about page aaya 
 ```
 
 
