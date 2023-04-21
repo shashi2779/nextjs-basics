@@ -138,7 +138,7 @@ export default page
 ```
 - output:
 ```js
-xaxi-Brand About
+xaxi-Brand    About
 
 
 note : 
