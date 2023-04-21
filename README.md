@@ -31,7 +31,7 @@
 - [src -> app ] => app me folder banaya "about" nam se aur uske ander "about.tsx" nam se 
   file bna diya => toh error aaya
 
-  agar "about.tsx" folder me "page.tsx" namse file banaya toh sahi hai , error nhi aayega
+  agar "about.tsx" folder me "page.tsx" name se file banaya toh sahi hai , error nhi aayega
 
   src --> app --> about --> page.tsx
 ```js
