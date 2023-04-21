@@ -122,7 +122,7 @@ export default page
 [src-->app] --> page.tsx
 -------------
 import React from 'react'
-import Link from 'next/link' // ye next ka hi link hona cahiye , react-rom ka nhi 
+import Link from 'next/link' // ye next ka hi link hona cahiye , react-dom ka nhi 
 
 function page() {
   return (
