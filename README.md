@@ -256,5 +256,15 @@ function page() {
 export default page
 
 ```
+- output :
+```js
+pepCoding     Home About Services Review Contact
+
+
+
+note :
+- "About" touch karne prr 'about' wale page prr chale jayegen
+- "Services" touch karne prr 'services' wale page prr chala jayega
+```
 #### Note :
 - hamm chahte hai Header har page par show ho , toh usko hmm page.tsx k badle layout.tsx me rakhegen. jisse Header hamara har page prr show hoga.
