@@ -267,4 +267,4 @@ note :
 - "Services" touch karne prr 'services' wale page prr chala jayega
 ```
 #### Note :
-- hamm chahte hai Header har page par show ho , toh usko hmm page.tsx k badle layout.tsx me rakhegen. jisse Header hamara har page prr show hoga.
+- hamm chahte hai Header har page par show ho , toh usko hmm "page.tsx" k badle "layout.tsx" me rakhegen. jisse Header hamara har page prr show hoga.
