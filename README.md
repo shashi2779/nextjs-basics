@@ -269,4 +269,4 @@ note :
 #### Note :
 - hamm chahte hai Header har page par show ho , toh usko hmm "page.tsx" k badle "layout.tsx" me rakhegen. jisse Header hamara har page prr show hoga.
  
- eg.    Nav bar 
+     eg.    Nav bar 
