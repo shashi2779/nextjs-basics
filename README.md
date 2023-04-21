@@ -127,7 +127,7 @@ import Link from 'next/link' // ye next ka hi link hona cahiye , react-dom ka nh
 function page() {
   return (
     <>
-      <h1>xaxi</h1>
+      <h1>xaxi-Brand</h1>
       <Link href="/about">About</Link>
 
     </>
