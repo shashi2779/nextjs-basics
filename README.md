@@ -80,7 +80,7 @@ about page aaya
 - routing
    - http://localhost:3000/about
 ```js
-about[folder] --> page.jsx
+about[folder] --> page.tsx
 ```
 - nested routing
     - http://localhost:3000/about/company
