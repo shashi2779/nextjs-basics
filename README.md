@@ -12,6 +12,20 @@
 - system requirement => Node.js 14.18.0
 - npx create-next-app projectName
 - npm run dev
+
+
+### How to use Next.js :
+#### steps :
+- npx create-next-app@latest
+- create-next-app@13.4.4 ok to proceed ? (y) => y
+- typescript (N/Y) => N
+- ESLint => Y 
+- Tailwind CSS => Y
+- src/directory => N
+- App Router => N
+- import alias => N
+- npm run dev => our project running on localhost
+
 ## In next.js  : known about folders
 - two imp folders "pubic" , "src"
 - In public folder => svg 
